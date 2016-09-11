@@ -1,3 +1,49 @@
 body {
-	background: blue;
+	background: white;
+}
+fieldset {
+	border-radius: 15px;
+	padding-left: 10%;
+}
+nav {
+	text-align: center;
+}
+a:visited {
+	color: #0088CE;
+}
+a:hover {
+	color: hotpink;
+}
+
+body {
+	border: #0088CE;
+	border-style: double;
+}
+img {
+	width: 75%;
+}
+.credit {
+	font-size: .8em;
+}
+h2 {
+	font-family: helvetica;
+	background-image: url(pantherslogo.png);
+	color: red;
+}
+h3 {
+	font-family: helvetica;
+}
+h1 {
+	font-family: helvetica;
+}
+.poll {
+	font-size: 1.2em;
+}
+p#open {
+	font-size: 1.2em;
+}
+@media only screen and (max-width: 500px) {
+    fieldset {
+        background-color: #0088CE;
+    }
 }
